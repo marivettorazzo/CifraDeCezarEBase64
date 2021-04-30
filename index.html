@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  href="./style.css" />
+    <title>Codigos</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+               <h1>Codifique seu segredo..</h1> 
+            </li>
+        </ul>
+    </header>
+    <div class="caixaDialogo">
+        <div id = "inputCaixa">
+            <input id="input" type="text"></input>
+        </div>
+        <input class ="cifraIncremento oculto" id="incremento" placeholder = "Insira o Incremento">
+        <select id ="select"> 
+            <option value ="escolha" >escolha as opções</option>
+            <option value ="cifraDeCesar" >cifra De Cesar</option>
+            <option value ="base64" >base-64</option>
+        </select>
+        <div id="CodiDecodi">
+            <button class = "buttonCodi oculto" id="buttonCodi">CODIFICAR</button>
+            <button class = "buttonDecodi oculto"id="buttonDecodi">DECODIFICAR</button>
+        </div>
+        <form id="options">
+            <input type="radio" name="CODIFICAR" id="CODIFICAR" ><label>CODIFICAR </label> 
+            <input type="radio" name="DECODIFICAR" id="DECODIFICAR" ><label>DECODIFICAR </label>
+        </form>
+         <input id="resposta" type="text">
+    </div>
+    <script  src = "Codigo1.js"></script>
+</body>
+</html>

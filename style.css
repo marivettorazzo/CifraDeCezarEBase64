@@ -1,0 +1,116 @@
+body{
+   background-image: url(./codigo.jpg);
+   background-size:cover;
+  
+}
+h1{
+    font-family: courier,arial,helvetica;
+    
+    border-color: white;
+    color: rgb(247, 247, 247);
+    background-color: rgba(27, 27, 51, 0.515);
+    margin-bottom: 15px;  
+}
+button{
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: courier,arial,helvetica;
+    font-size: large;
+    border-color: white;
+    color: rgb(247, 247, 247);
+    background-color: rgba(27, 27, 51, 0.515);
+    margin-bottom: 15px;
+}
+.buttonCodi{
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: courier,arial,helvetica;
+    font-size: large;
+    border-color: white;
+    color: rgb(247, 247, 247);
+    background-color: rgba(27, 27, 51, 0.515);
+    margin-bottom: 15px;
+   
+}
+.buttonDecodi{
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: courier,arial,helvetica;
+    font-size: large;
+    border-color: white;
+    color: rgb(247, 247, 247);
+    background-color: rgba(27, 27, 51, 0.515);
+    margin-bottom: 15px;
+}
+#input{
+    background-color: rgba(27, 27, 51, 0.515);
+    color: white; 
+    width: 100%;
+    height: auto;
+    font-size: large;
+    font-family: courier,arial,helvetica;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-color: white;
+    text-align: center;
+    
+}
+#inputCaixa{
+    width: 800px;
+    height: auto;
+    display: flex;
+   justify-content: center;
+}
+.caixaDialogo{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    background-color:rgba(130, 130, 160, 0.775) ;
+    border-style: ridge;
+}
+.cifraIncremento{
+    background-color: rgba(27, 27, 51, 0.515);
+    color: white; 
+    width: 20%;
+    height: auto;
+    font-size: large;
+    font-family: courier,arial,helvetica;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-color: white;
+    text-align: center;
+}
+#options{
+    display: flex;
+    justify-items: center;
+    font-size:x-large;
+    font-family: courier,arial,helvetica;
+    color: white;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgba(10, 3, 41, 0.775); 
+}
+.oculto{
+    display:none;
+}
+#resposta{
+    background-color: rgba(27, 27, 51, 0.515);
+    color: white; 
+    width: 50%;
+    height: auto;
+    font-size: large;
+    font-family: courier,arial,helvetica;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-color: white;
+    text-align: center;
+
+}
